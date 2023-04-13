@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify Web API Tutorial</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+   <section class="main">
+      <article class="left">
+        <main class="left-container">
+          <div class="icon">
+            <i class="fa-brands fa-spotify" id="spotify">&nbsp;</i
+            ><span>Spotify</span>
+          </div>
+
+          <div class="home">
+            <i class="fa-sharp fa-solid fa-house" id="house"></i>
+            <div>Home</div>
+          </div>
+          <div class="search">
+            <i class="fa-solid fa-magnifying-glass" id="glass"></i>
+            <div>Search</div>
+          </div>
+          <div class="lib">
+            <img
+              src="./assets/images/laibrary icon.png"
+              id="library"
+              height="30px"
+              width="30px"
+            />
+            <div>Your Library</div>
+          </div>
+          <div class="sq-plus">
+            <i class="fa-regular fa-square-plus" id="plus"></i>
+            <div>Create Playlist</div>
+          </div>
+          <div class="like">
+            <i  id="plus" class="fa-regular fa-heart"></i>
+            <div>Liked Songs</div>
+          </div>
+        </main>
+      </article>
+      <article class="right">
+        <nav class="nav">
+          <section class="play">
+            <i
+              class="fa-sharp fa-solid fa-circle-chevron-left"
+              id="previous"
+            ></i
+            ><i class="fa-solid fa-circle-chevron-right" id="after"></i>
+          </section>
+          <section class="profile_Premium">
+            <span>Get Premium</span>
+            <div class="profile">
+              <i class="fa-solid fa-circle-user"></i>&ensp;<span>UserName</span>
+            </div>
+          </section>
+        </nav>
+        <section class="card-main">
+          <div class="head-h3-sec"><h3 class="card-title">Focus</h3><span>Show All</span></div>
+          <section class="card-con">
+            <div class="img">
+            </div>
+            <div class="songs">
+              </div>
+            </div>
+        </section>
+        </article>
+    </section>
+        <nav id="play-section" class="play-section">
+        <section class="display-icons">
+         <div id="playingImg" ></div>
+           <article>
+             <button class="button-1">
+                  <i class="fa-solid fa-shuffle"></i>
+            </button>
+            <button class="button-2">
+                <i class="fa-solid fa-backward"></i>
+            </button>
+            <button class="button-3">
+               <i class="fa-solid fa-play" id="play"></i>
+            </button>
+            <button class="button-6">
+                 <i class="fa-solid fa-pause" id="pause"></i>
+            </button>
+            <button class="button-4">
+                 <i class="fa-solid fa-forward"></i>
+            </button>
+            <button class="button-5">
+                 <i id="bt666" class="fa-solid fa-repeat"></i>
+            </button>
+           </article>
+        </section>
+    </nav>
+   <footer class="install">
+          <i class="fa-solid fa-circle-arrow-down" id="download"></i>
+          <div>Install App</div>
+        </footer>
+    <script src="./js/app.js" type="text/javascript"></script>
+  </body>
+</html>

@@ -1,0 +1,327 @@
+* {
+  box-sizing: border-box;
+  padding: 0%;
+  margin: 0%;
+  background-color: #222;
+  color: rgb(206, 203, 203);
+  font-family: Arial, Helvetica, sans-serif;
+}
+.main {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+}
+.main .left {
+  width: 18%;
+  height: 100vh;
+  background-color: black;
+}
+.main .left .left-container span {
+  background-color: black;
+  font-size: 30px;
+}
+.main .left .left-container .icon {
+  background-color: black;
+  display: flex;
+  align-items: center;
+}
+.main .left .left-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 55%;
+  justify-content: space-between;
+  background-color: black;
+  border-bottom: 0.01rem solid rgb(206, 203, 203);
+  margin: 25px;
+}
+.main .left #spotify {
+  background-color: black;
+  font-size: 45px;
+}
+.main .left .home {
+  display: flex;
+  background-color: black;
+  align-items: center;
+  font-size: large;
+}
+.main .left .home div {
+  font-size: 16px;
+  font-weight: bold;
+  background-color: black;
+}
+.main .left #house {
+  background-color: black;
+  padding-right: 20px;
+  font-size: 25px;
+}
+.main .left #glass {
+  font-size: 25px;
+  background-color: black;
+  padding-right: 20px;
+  color: rgb(206, 203, 203);
+}
+.main .left .search {
+  display: flex;
+  background-color: black;
+  align-items: center;
+  font-size: large;
+}
+.main .left .search div {
+  font-size: 16px;
+  background-color: black;
+  font-weight: bold;
+}
+.main .left .lib {
+  align-items: center;
+  background-color: black;
+  display: flex;
+}
+.main .left .lib #library {
+  background-color: black;
+  margin-right: 18px;
+}
+.main .left .lib div {
+  font-size: 16px;
+  font-weight: bold;
+  background-color: black;
+}
+.main .left .sq-plus {
+  background-color: black;
+  align-items: center;
+  display: flex;
+}
+.main .left #plus {
+  font-size: 30px;
+  background-color: black;
+  color: rgb(206, 203, 203);
+  padding-right: 20px;
+}
+.main .left .sq-plus div {
+  font-size: 16px;
+  font-weight: bold;
+  background-color: black;
+}
+.main .left .like {
+  align-items: center;
+  background-color: black;
+  display: flex;
+  margin-left: -5px;
+  margin-top: -15px;
+  padding-bottom: 10px;
+}
+.main .left .like #heart {
+  background-color: black;
+  margin-right: 17px;
+  height: 35px;
+  width: 35px;
+}
+.main .left .like div {
+  font-size: 16px;
+  font-weight: bolder;
+  background-color: black;
+}
+.install {
+  width: 100%;
+  height: 10vh;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  padding: 25px;
+  position: sticky;
+  bottom: 0%;
+}
+.install #download {
+  background-color: black;
+  font-size: 25px;
+  padding-right: 20px;
+}
+.install div {
+  font-size: 16px;
+  color: rgb(206, 203, 203);
+  font-weight: bolder;
+  background-color: black;
+}
+.main .right {
+  width: 82%;
+  height: 100vh;
+  overflow: scroll;
+}
+.main .right .nav {
+  height: 10%;
+  background-color: #222;
+  position: static;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+}
+.main .right .nav .play {
+  flex-basis: 10%;
+}
+.main .right .nav .play #previous {
+  color: black;
+  font-size: 35px;
+  padding-right: 20px;
+}
+.main .right .nav .play #after {
+  color: black;
+  font-size: 35px;
+}
+.main .right .nav .profile_Premium {
+  display: flex;
+  width: 30%;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.main .right .nav span:first-child {
+  border: 1px solid grey;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 300px;
+  color: white;
+  font-weight: bolder;
+}
+.main .right .nav .profile_Premium div {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 300px;
+  background-color: black;
+}
+.main .right .nav .profile_Premium div span {
+  background-color: black;
+  color: white;
+  font-weight: bolder;
+}
+.main .right .nav .profile_Premium div i {
+  font-size: 25px;
+}
+.main .right .nav .profile span {
+  font-size: 16px;
+  font-weight: bolder;
+}
+.main .right .card-main {
+  background-color: #222;
+  height: 60%;
+}
+.main .right .card-main .head-h3-sec {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 10px 10px 50px;
+}
+.main .right .card-main .card-con {
+  height: 80vh;
+  width: 100%;
+}
+.play-section {
+  height: 10vh;
+  width: 100%;
+  border-top: 1px solid rgb(52, 52, 52);
+  border-bottom: 1px solid rgb(52, 52, 52);
+  display: none;
+  position: sticky;
+  bottom: 10vh;
+}
+#play-img {
+  height: 30px;
+  width: 30px;
+  border-radius: 100%;
+  background-color: green;
+}
+.card:hover {
+  cursor: pointer;
+}
+.play-section .display-icons {
+  width: 100%;
+  height: 5vh;
+  padding-top: 10px;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.play-section .display-icons article button {
+  border: none;
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+  background-color: black;
+}
+.play-section .display-icons article {
+  width: 40%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.play-section .display-icons article .button-1 {
+  cursor: pointer;
+}
+.play-section .display-icons article .button-2 {
+  cursor: pointer;
+}
+.play-section .display-icons article .button-3 {
+  cursor: pointer;
+}
+.play-section .display-icons article .button-4 {
+  cursor: pointer;
+}
+.play-section .display-icons article .button-5 {
+  cursor: pointer;
+  color: white;
+}
+.play-section .display-icons article .button-6 {
+  display: none;
+  cursor: pointer;
+}
+.album-img {
+  height: 200px;
+  width: 200px;
+  margin: 20px;
+}
+.album-img:hover {
+  cursor: pointer;
+}
+.album-song {
+  display: none;
+  height: 50px;
+  width: 100%;
+}
+#audio {
+  display: none;
+}
+figure img {
+  height: 30vh;
+  width: 80%;
+  cursor: pointer;
+  margin: 10px;
+}
+#playingImg > img{
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+}
+.img {
+  width: 100%;
+  height: 90vh;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.jsfig {
+  height: 32vh;
+  margin-bottom: 50px;
+  width: 20%;
+}
+.songs {
+  position: relative;
+  bottom: 9000px;
+  left: 630px;
+}
